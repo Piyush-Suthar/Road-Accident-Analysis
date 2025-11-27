@@ -1,0 +1,122 @@
+Road Accident Analysis
+
+This project presents an end-to-end Road Accident Analysis using Power BI, including data cleaning, ETL (Power Query), star-schema data modeling, DAX measures, KPIs, and interactive dashboard visuals.
+The goal is to identify trends, accident hotspots, severity patterns, and the top contributing factors to support data-driven decision-making.
+
+🚦 Project Overview
+
+Road accidents are a major concern for public safety and traffic management. This project analyzes accident data to uncover:
+
+Traffic accident trends
+
+Most affected states and locations
+
+Accident causes & severity levels
+
+Time-based accident patterns (hour, day, month)
+
+Top 7 causes of accidents
+
+Hotspot identification
+
+🛠 Tech Stack
+Component	Tools Used
+Data Cleaning & ETL	Power Query
+Data Modeling	Star Schema (Fact + Dimensions)
+Calculations	DAX Measures
+Visualization	Power BI
+Files Included	.pbix, datasets, images, documentation
+📁 Project Structure
+📦 Road-Accident-Analysis
+│
+├── Road Accident Analysis.pbix          # Power BI dashboard
+├── data/                                # ROW Road-Accidents data files
+├── screenshots/                         # Dashboard screenshots
+├── README.md                            # Project documentation
+
+
+📊 Data Model (Star Schema)
+Fact Table
+
+Fact_Accidents
+
+Accident_ID
+
+Date
+
+Time
+
+Road_Direction
+
+Accident_Severity
+
+Cause
+
+State
+
+Latitude
+
+Longitude
+
+Dimension Tables
+
+Dim_Date (Calendar table)
+
+Dim_State
+
+Dim_Cause
+
+Dim_Severity
+
+All dimensions are connected to the Fact table using a one-to-many relationship.
+
+📌 Key Features & KPIs
+✔ Data Cleaning
+
+Handled null values
+
+Trimmed spaces
+
+Replaced missing road directions with "Not Reported"
+
+Converted types (Date, Time, Numeric)
+
+✔ DAX KPIs
+
+Total Accidents
+
+Fatal Accidents
+
+Accident Severity Index
+
+Top 7 Accident Causes
+
+Accident Trend Over Time
+
+Accident Heatmap (Latitude/Longitude)
+
+✔ Dashboard Highlights
+
+Trend Line for yearly/monthly accidents
+
+Top 7 accident causes (bar chart)
+
+State-wise accident map
+
+Severity distribution
+
+Time-based patterns
+
+Filters for State, Severity, Direction, Month, Cause
+
+📄 Key Insights
+
+Most accidents occur during peak traffic hours.
+
+Certain states show significantly higher accident density.
+
+Human error remains the highest contributing factor.
+
+Accident severity spikes in early mornings and late nights.
+
+A small number of causes contribute to most severe accidents.
