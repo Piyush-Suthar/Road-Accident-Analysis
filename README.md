@@ -1,9 +1,11 @@
 # Road-Accident-Analysis
-Dahboard Overview 
+***Dahboard Overview*** 
 <img width="1211" height="679" alt="image" src="https://github.com/user-attachments/assets/437bfd2e-ec68-4ed8-9eb0-7f3fb433c41a" />
 
 ***Project Summary – Road Accident Analysis (Power BI)***
+
 The Road Accident Analysis dashboard was developed to analyze accident records across Brazil for the years 2018, 2019, and 2020. The project focuses on identifying accident trends, high-risk areas, severity levels, and key causal factors to support data-driven decision-making for logistics and safety planning.
+
 ***1. Objective***
 
 •	Analyze accident patterns by time, location, and severity.
